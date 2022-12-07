@@ -4,7 +4,7 @@ import earthImg from '../assets/imgs/resp.png'
 import earthSecond from '../assets/imgs/earth.png'
 import manPlanting from '../assets/imgs/manplanting.jpeg'
 import { FiCornerRightDown } from 'react-icons/fi'
-
+ 
 const UpperSection = () => {
   return (
     <div className='flex flex-col m-auto justify-center items-center text-center w-[90%] font-[Inter]'>
@@ -23,10 +23,16 @@ const UpperSection = () => {
       <div className='mt-[2rem]'>
         <img src={earthImg} alt='/'/>
       </div>
+      <div className='mt-[1rem] mb-[1rem]'>
+        <p className='text-[1.5rem] text-[#00ab5b] font-bold'>Our mission is to make the world a better place, for us, and for our future generations</p>
+      </div>
+      <div className='bg-[#00ab5b] rounded-[30px_30px_5px_5px] mb-[.5rem] h-[3.5rem] flex font-semibold text-white'>
+        <p className='text-center w-[75%] m-auto'>We planted more than 56750 trees since when we started this mission</p>
+      </div>
+      <div className='bg-[#00ab5b] rounded-[5px_5px_30px_30px] h-[3.5rem] flex font-semibold text-white'>
+        <p className='w-[85%] m-auto'>We travel from country to country, spreading the word of a greener place to live</p>
+      </div>
       <div>
-        <p>Our mission is to make the world a better place, for us, and for our future generations</p>
-        <p>We planted more than 56750 trees since when we started this mission</p>
-        <p>We travel from country to country, giving speeches at schools, universities and companies, showing how a simple act of planting a single tree can benefit us in a near future</p>
         <img src={earthSecond} alt='/'/>
       </div>
       <div>
