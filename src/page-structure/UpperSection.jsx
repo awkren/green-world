@@ -3,15 +3,26 @@ import '../page-style/UpperSection.css'
 import earthImg from '../assets/imgs/resp.png'
 import earthSecond from '../assets/imgs/earth.png'
 import manPlanting from '../assets/imgs/manplanting.jpeg'
+import { FiCornerRightDown } from 'react-icons/fi'
+
 const UpperSection = () => {
   return (
-    <div>
-      <div className='flex flex-col justify-center items-center w-[90%] text-center m-auto'>
-        <p>Painting the Earth green once again!</p>
-        <p>Since 2015, we are showing you how planting a single tree can save millions of lives</p>
-        <p className=''><span className='bg-black text-white p-1'>I want to plant a tree</span></p>
+    <div className='flex flex-col m-auto justify-center items-center text-center w-[90%] font-[Inter]'>
+      <div className='mt-[1.5rem] text-[2rem]'>
+        <p className=' font-[500] leading-[2.5rem] w-[93%] m-auto text-center'>Showing you how planting a single tree can <em className='not-italic text-[#00ab5b] underline'>save millions of lives</em></p>
       </div>
-      <img src={earthImg} alt='/'/>
+      <div className='mt-[1.5rem] text-center m-auto'>
+        <p className=''>There's still hope to make the Earth green once more!</p>
+        <p className='w-[90%] m-auto'>We teach people around the world on how to make the world a better place to live.</p>
+      </div>
+      <div className='text-[#00ab5b] flex items-center justify-center align-middle mt-[1rem]'>
+        <p className='mb-[.3rem] font-semibold text-[.9rem]'>Let's go</p>
+        <p className='text-[.9rem]'><span></span><FiCornerRightDown/></p>
+      </div>
+      <div className='shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-[#00ab5b] border-black border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center'>Help the planet 🌳</div>
+      <div className='mt-[2rem]'>
+        <img src={earthImg} alt='/'/>
+      </div>
       <div>
         <p>Our mission is to make the world a better place, for us, and for our future generations</p>
         <p>We planted more than 56750 trees since when we started this mission</p>
