@@ -5,9 +5,11 @@ import hug from '../assets/imgs/test.png'
 
 const SecondSection = () => {
   return (
-    <div>
+    <div className='flex flex-col m-auto justify-center items-center text-center w-[90%] font-[Inter]'>
       <div>
         <p>It doesn't matter where you're from, talk to us and we'll go to your city too!</p>
+      </div>
+      <div>
         <form>
           <label>Your Name</label>
           <input type='text'/>
