@@ -1,0 +1,81 @@
+@media only screen and (min-width:940px){
+  .main-upsection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1.5rem;
+  }
+  .imgupsection{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  .main-up{
+    width: 70%;
+  }
+  .rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+  }
+  .t-up{
+    font-size: 1.25rem;
+  }
+  .boxes{
+    display: none;
+  }
+  .group-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tclass{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .right-group{
+    width: 100%;
+    order:2;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxes-desktop{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-group img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  .earth-breathe{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .we-are{
+    width: 70%;
+    margin: auto;
+  }
+  .read-docs{
+    display: flex;
+    flex-direction: column;
+  }
+}
