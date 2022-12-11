@@ -71,12 +71,13 @@ const UpperSection = () => (
       <p className='hover:cursor-pointer text-[#00ab5b] flex items-center font-semibold m-auto text-[1.1rem]'><IoMdArrowRoundForward/><span></span>Read our documentation</p>
       <p className='font-semibold text-[1.1rem]'>and see how you can help us too!</p>
     </div>
-    <div className='h-[1px] w-[40%] bg-[#bfe9d5] border-black mt-[1rem] mb-[1rem]'></div>
+    <div className='second-border h-[1px] w-[40%] bg-[#bfe9d5] border-black mt-[1rem] mb-[1rem]'></div>
     <div className=''>
-      <p>We've travelled more than 50 countries and spread the Green World Word in more than 10 languages</p>
+      <p className='travel'>We've travelled more than 50 countries and spread the Green World Word in more than 10 languages</p>
+      <p className='travel-nature'>We do not only plant trees, we teach about about nature and it is important to take care of it</p>
     </div>
     <div className='bg-[#bfe9d5] rounded-[14px] flex justify-center shadow-[0px_8px_24px_rgb(127,213,173,30%)]'>
-      <img src={manPlanting} alt='/' className=' rounded-[14px]' />
+      <img src={manPlanting} alt='/' className='img-man rounded-[14px]' />
     </div>
   </div>
 )

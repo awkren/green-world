@@ -1,0 +1,69 @@
+@media only screen and (min-width:940px){
+  .main-sec{
+    width: 70%;
+  }
+  .ever-wondered{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .left-wonder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .wonder{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .think{
+    font-size: 1.3rem;
+  }
+  .right-wonder{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .img-tech{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  .brazil{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .right-brazil{
+    order:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .left-brazil{
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+  }
+  .green-world{
+    display: none;
+  }
+  .br-img{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+  }
+  .tips{
+    width: 100%;
+  }
+}

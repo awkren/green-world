@@ -78,4 +78,23 @@
     display: flex;
     flex-direction: column;
   }
+  .second-border{
+    width: 80%;
+  }
+  .travel{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+  }
+  .travel-nature{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #00ab5b;
+    font-weight: 700;
+  }
+  .img-man{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
 }
