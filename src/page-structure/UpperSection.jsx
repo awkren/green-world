@@ -2,7 +2,7 @@ import React from 'react'
 import '../page-style/UpperSection.css'
 import earthImg from '../assets/imgs/resp.png'
 import earthSecond from '../assets/imgs/earth.png'
-import manPlanting from '../assets/imgs/manplanting.jpeg'
+
 import { FiCornerRightDown, FiCornerDownRight } from 'react-icons/fi'
 import {IoMdArrowRoundForward} from 'react-icons/io'
  
@@ -11,17 +11,17 @@ const UpperSection = () => (
     <div className='main-upsection justify-center items-center m-auto flex flex-col'>
       <div className='leftside'>
         <div className='mt-[1.5rem] text-[2rem]'>
-          <p className=' font-[500] leading-[2.5rem] m-auto text-center'>Showing you how planting a single tree can <em className='not-italic text-[#00ab5b] underline'>save millions of lives</em></p>
+          <p className=' font-[500] leading-[2.5rem] m-auto text-center'>Showing you how planting a single tree can <em className='not-italic text-white underline'>save millions of lives</em></p>
         </div>
         <div className='mt-[1.5rem] text-center m-auto'>
           <p className='w-[95%] t-up'>There's still hope to make the Earth green once more!</p>
           <p className='w-[95%] m-auto t-up'>We teach people around the world on how to make the world a better place to live.</p>
         </div>
-        <div className='text-[#00ab5b] flex items-center justify-center align-middle mt-[1rem]'>
+        <div className='text-white flex items-center justify-center align-middle mt-[1rem]'>
           <p className='mb-[.3rem] font-semibold text-[.9rem]'>Let's go</p>
           <p className='text-[.9rem]'><span></span><FiCornerRightDown /></p>
         </div>
-        <div className='hover:cursor-pointer shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-[#00ab5b] border-black border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center m-auto'>Help the planet 🌳</div>
+        <div className='hover:cursor-pointer shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-[#00ab5b] border-2 border-white border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center m-auto'>Help the planet 🌳</div>
       </div>
       <div className='rightside'>
         <div className='mt-[2rem]'>
@@ -76,9 +76,15 @@ const UpperSection = () => (
       <p className='travel'>We've travelled more than 50 countries and spread the Green World Word in more than 10 languages</p>
       <p className='travel-nature'>We do not only plant trees, we teach about about nature and it is important to take care of it</p>
     </div>
-    <div className='bg-[#bfe9d5] rounded-[14px] flex justify-center shadow-[0px_8px_24px_rgb(127,213,173,30%)]'>
-      <img src={manPlanting} alt='/' className='img-man rounded-[14px]' />
-    </div>
+    
+
+    <div class="custom-shape-divider-top-1670846940">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+
+
   </div>
 )
 

@@ -1,16 +1,21 @@
-@media only screen and (min-width:940px){
+  @media only screen and (min-width:940px){
   .main-sec{
-    width: 70%;
+    width: 100%;
   }
   .ever-wondered{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #00ab5b;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    width: 90%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  }
+  .globe{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
   }
   .left-wonder{
     display: flex;
@@ -66,4 +71,22 @@
   .tips{
     width: 100%;
   }
+  .plant-man{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+  }
+  .plant-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-plus-button{
+    width: 70%;
+  }
+  .ever-wondered{
+    
+  }
 }
+

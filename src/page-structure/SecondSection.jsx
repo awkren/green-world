@@ -2,35 +2,40 @@ import React from 'react'
 import '../page-style/SecondSection.css'
 import naTech from '../assets/imgs/naturetech4.png'
 import hug from '../assets/imgs/test.png'
+import manPlanting from '../assets/imgs/treeman.png'
 import { BsFillTreeFill } from 'react-icons/bs'
 
 const SecondSection = () => {
   return (
     <div className='main-sec flex flex-col m-auto justify-center items-center text-center w-[90%] font-[Inter]'>
-      <div className='mt-[1rem] '>
-        <p className='font-semibold text-justify '>It doesn't matter where you're from, talk to us and we'll go to your city too!</p>
-        <form className='flex flex-col rounded-[10px] gap-[1rem] w-[80%] m-auto mt-[1rem]'>
-          <label className='text-left'>Your Name</label>
-          <input className='border-b-[1px] bg-[#f2faf6] h-[2rem] pl-[.5rem] rounded-[5px_5px_0px_0px]' type='text'/>
-          <label className='text-left'>Your City</label>
-          <input className='border-b-[1px] bg-[#f2faf6] h-[2rem] pl-[.5rem] rounded-[5px_5px_0px_0px]' type='text'/>
-          <label className='text-left'>Email</label>
-          <input className='border-b-[1px] bg-[#f2faf6] h-[2rem] pl-[.5rem] rounded-[5px_5px_0px_0px]' type='email'/>
-          <label className='text-left'>Country</label>
-          <input className='border-b-[1px] bg-[#f2faf6] h-[2rem] pl-[.5rem] rounded-[5px_5px_0px_0px]' type='text'/>
-          <button className='bg-[#00ab5b] text-white rounded-[10px] h-[3rem] font-semibold shadow-[0px_8px_24px_rgb(0,0,0,12%)]'>I want to contribute!</button>
-        </form>
+      <div className='plant-man mt-[1rem] w-[90%] '>
+        <div className='plant-left'>
+          <div className='rounded-[14px] flex justify-center'>
+            <img src={manPlanting} alt='/' className='img-man rounded-[14px]' />
+          </div>
+
+        </div>
+        <div className='plant-right'>
+          <p className='font-semibold text-center text-[1.1rem] mt-[1rem]'>It doesn't matter where you're from, leave your email below and we'll get in touch with you, to explain how we can help your city too!</p>
+          <div className='form-plus-button flex flex-col gap-2 mt-[1rem]'>
+            <input type='email' placeholder='Your email address' className='border-[2px] h-[3rem] border-[#00ab5b] pl-[.5rem] rounded-full'/>
+            <div className='hover:cursor-pointer shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-[#00ab5b] border-b-2 border-white border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center m-auto'>Subscribe 🌳</div>
+          </div>
+        </div>
       </div>
       <div className='ever-wondered'>
-        <div className='left-wonder'>
-          <p className='wonder text-[1.5rem] font-bold mt-[1rem]'>Ever wondered how <em className='not-italic underline decoration-[#00ab5b]'>technology</em> can work <em className='not-italic underline decoration-[#00ab5b]'>together with nature?</em></p>
-          <p className='mb-[1rem] font-semibold text-[1.1rem] mt-[.5rem] think '>We thought about it in the past, and we developed the <em className='not-italic decoration-white underline font-bold'>Forest Tracking App</em></p>
-          <p className='mb-[.5rem]'>It's able to track forests around the globe by using AI and satellite images to compare past data with present images from those forests, and we can also predict how that forest would grow or not in a 5, 10 or 15 year span in the future!</p>
-        </div>
-        <div className='right-wonder'>
-          <img src={naTech} className='img-tech' alt='/'/>
+        <div className='globe'>
+          <div className='left-wonder'>
+            <p className='wonder text-[1.5rem] font-bold mt-[1rem]'>Ever wondered how <em className='text-white not-italic'>technology</em> can work <em className='not-italic text-white'>together with nature?</em></p>
+            <p className='mb-[1rem] font-semibold text-[1.1rem] mt-[.5rem] think '>We thought about it in the past, and we developed the <em className='not-italic text-white font-bold'>Forest Tracking App</em></p>
+            <p className='mb-[.5rem]'>It's able to track forests around the globe by using AI and satellite images to compare past data with present images from those forests, and we can also predict how that forest would grow or not in a 5, 10 or 15 year span in the future!</p>
+          </div>
+          <div className='right-wonder'>
+            <img src={naTech} className='img-tech' alt='/'/>
+          </div>
         </div>
       </div>
+
       <div className='brazil mt-[1rem]'>
         <div className='right-brazil'>
           <p className='text-[1.5rem] font-bold '>🌳 Our impact in Brazil 🌳</p>
