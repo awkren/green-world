@@ -35,21 +35,19 @@ const UpperSection = () => (
         
         <div className='boxes flex flex-col justify-center items-center'>
         <p className='mt-[2rem] mb-[1.5rem] text-[1.5rem] text-[#00ab5b] font-bold'>Our mission is to make the world a better place, for us, and for our future generations!</p>
-          <div className='bg-[#00ab5b] rounded-[30px_30px_5px_5px] mb-[.5rem] w-[95%] h-[3.5rem] flex font-semibold text-white'>
-            <p className='text-center w-[80%] m-auto'>We planted more than 56750 trees since when we started this mission</p>
-          </div>
-          <div className='bg-[#00ab5b] rounded-[5px_5px_30px_30px] mb-[.5rem] w-[95%] h-[3.5rem] flex font-semibold text-white'>
-            <p className='text-center w-[80%] m-auto'>We helped more than 1200 animals around the world 🦁</p>
-          </div>
+            <div className='flex flex-col bg-[#00ab5b] rounded-[10px] p-2 gap-[1rem] mb-[1.5rem] w-[95%] flex font-semibold'>
+              <p className='text-center w-[90%] m-auto'>We planted more than <em className='text-white font-normal not-italic'>56750</em> trees since when we started this mission</p>
+              <p className='text-center w-[80%] m-auto'>We helped more than <em className='text-white font-normal not-italic'>1200</em> animals around the world 🦁</p>
+            </div>
         </div>
 
         <div className='boxes-desktop w-[90%] m-auto hidden'>
           <p className='t-class text-[1.5rem] text-[#00ab5b] font-bold'>Our mission is to make the world a better place, for us, and for our future generations!</p>
           <div className='mt-[1rem] bg-[#00ab5b] rounded-[10px] p-[1rem] mb-[.5rem] w-[95%] flex flex-col font-semibold text-white'>
-            <p className='text-center w-[80%] m-auto'>We planted more than 56750 trees since when we started this mission</p>
+            <p className='text-center w-[90%] m-auto'>👉🏼 We planted more than 56750 trees since when we started this mission 🌳</p>
             {/* <div className='w-[70%] h-[1px] bg-black m-auto'></div> */}
             <br></br>
-            <p className='text-center w-[80%] m-auto'>We helped more than 1200 animals around the world 🦁</p>
+            <p className='text-center w-[80%] m-auto'>👉🏼 We helped more than 1200 animals around the world 🦁</p>
           </div>
         </div>
 
@@ -71,7 +69,7 @@ const UpperSection = () => (
         <div className='read-docs flex flex-col items-center'>
           {/* <p className='text-[#00ab5b]'><IoMdArrowRoundForward/></p> */}
           <p className='hover:cursor-pointer text-white flex items-center font-semibold m-auto text-[1.1rem]'><IoMdArrowRoundForward/><span></span>Read our documentation</p>
-          <p className='font-semibold text-[1.1rem]'>and see how you can help us too!</p>
+          <p className='font-semibold text-[1.1rem] mb-[1rem]'>and see how you can help us too!</p>
         </div>  
       </div>
     </div>
