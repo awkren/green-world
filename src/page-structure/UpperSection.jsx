@@ -21,7 +21,7 @@ const UpperSection = () => (
           <p className='mb-[.3rem] font-semibold text-[.9rem]'>Let's go</p>
           <p className='text-[.9rem]'><span></span><FiCornerRightDown /></p>
         </div>
-        <div className='hover:cursor-pointer shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-[#00ab5b] border-2 border-white border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center m-auto'>Help the planet 🌳</div>
+        <div className='hover:cursor-pointer shadow-[0px_8px_24px_rgb(0,0,0,12%)] bg-white text-[#00ab5b] border-2 border-white border-[1px] font-semibold text-white rounded-full w-[13rem] h-[3rem] flex justify-center items-center m-auto'>Help the planet 🌳</div>
       </div>
       <div className='rightside'>
         <div className='mt-[2rem]'>
