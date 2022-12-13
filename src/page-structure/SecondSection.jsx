@@ -25,8 +25,8 @@ const SecondSection = () => {
       </div>
       <div className='ever-wondered'>
         <div className='globe'>
-          <div className='left-wonder'>
-            <p className='wonder text-[1.5rem] font-bold mt-[1rem]'>Ever wondered how <em className='text-white not-italic'>technology</em> can work <em className='not-italic text-white'>together with nature?</em></p>
+          <div className='left-wonder mt-[1rem]'>
+            <p className='wonder text-[1.5rem] font-bold mt-[2rem]'>Ever wondered how <em className='text-white not-italic'>technology</em> can work <em className='not-italic text-white'>together with nature?</em></p>
             <p className='mb-[1rem] font-semibold text-[1.1rem] mt-[.5rem] think '>We thought about it in the past, and we developed the <em className='not-italic text-white font-bold'>Forest Tracking App</em></p>
             <p className='mb-[.5rem]'>It's able to track forests around the globe by using AI and satellite images to compare past data with present images from those forests, and we can also predict how that forest would grow or not in a 5, 10 or 15 year span in the future!</p>
           </div>
@@ -51,7 +51,7 @@ const SecondSection = () => {
             </div>
           </div>
         </div>
-        <div className='left-brazil mt-[1rem] text-[#00ab5b] bg-[#f2faf6] rounded-[20px]'>
+        <div className='left-brazil mt-[1rem] text-[#00ab5b] rounded-[20px]'>
           <p className='text-[1.3rem] text-center font-bold m-[1rem] green-world'>We believe that together, we can make the world green once again</p>
           <img className='br-img' src={hug} alt='/'/>
         </div>

@@ -61,20 +61,25 @@ const UpperSection = () => (
       </div>
     </div>
 
-    <div>
-      <p className='earth-breathe text-[1.8rem] w-[95%] mb-[1rem]'>The Earth breathe better, you breathe better!</p>
-      <p className='we-are text-[1.3rem]'>We are also one of the sponsors of the <em className='not-italic text-[#00ab5b] font-semibold'>G-Oxygen Program</em>, it's an <em className='decoration-[#00ab5b] underline not-italic'><em>Open-Source</em> initiative</em> to develop strategies to map areas with a low-level of oxygen around the world.</p>
+    <div className='global-2'>
+      <div className='global-inside'>
+        <div className='w-[90%] m-auto'>
+          <p className='earth-breathe text-[1.5rem] font-bold mb-[1rem] mt-[1rem]'>The Earth breathe better, you breathe better!</p>
+          <p className=' we-are text-[1.3rem]'>We are also one of the sponsors of the <em className='not-italic text-white font-semibold'>G-Oxygen Program</em>, it's an <em className='decoration-[#00ab5b] underline not-italic'><em>Open-Source</em> initiative</em> to develop strategies to map areas with a low-level of oxygen around the world.</p>
+        </div>
+        <div className='h-[1px] w-[20%] bg-[#bfe9d5] border-black mt-[1rem] mb-[1rem] m-auto'></div>
+        <div className='read-docs flex flex-col items-center'>
+          {/* <p className='text-[#00ab5b]'><IoMdArrowRoundForward/></p> */}
+          <p className='hover:cursor-pointer text-white flex items-center font-semibold m-auto text-[1.1rem]'><IoMdArrowRoundForward/><span></span>Read our documentation</p>
+          <p className='font-semibold text-[1.1rem]'>and see how you can help us too!</p>
+        </div>  
+      </div>
     </div>
-    <div className='h-[1px] w-[20%] bg-[#bfe9d5] border-black mt-[1rem] mb-[1rem]'></div>
-    <div className='read-docs flex flex-col items-center'>
-      {/* <p className='text-[#00ab5b]'><IoMdArrowRoundForward/></p> */}
-      <p className='hover:cursor-pointer text-[#00ab5b] flex items-center font-semibold m-auto text-[1.1rem]'><IoMdArrowRoundForward/><span></span>Read our documentation</p>
-      <p className='font-semibold text-[1.1rem]'>and see how you can help us too!</p>
-    </div>
+
     <div className='second-border h-[1px] w-[40%] bg-[#bfe9d5] border-black mt-[1rem] mb-[1rem]'></div>
-    <div className=''>
+    <div className='travel-guide'>
       <p className='travel'>We've travelled more than 50 countries and spread the Green World Word in more than 10 languages</p>
-      <p className='travel-nature'>We do not only plant trees, we teach about about nature and it is important to take care of it</p>
+      <p className='travel-nature'>We do not only plant trees, we teach about about nature and why it's important to take care of it</p>
     </div>
     
 

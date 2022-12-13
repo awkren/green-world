@@ -90,3 +90,25 @@
   }
 }
 
+.main-sec{
+  width: 100%;
+}
+
+.ever-wondered{
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #00ab5b;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.globe{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.brazil{
+  width: 90%;
+}
